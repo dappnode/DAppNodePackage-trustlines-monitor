@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Waiting for the node to start and the DNS is updated..."
+# Delay to wait until the node is started and the DNS is updated
+sleep 30
+
 VALIDATOR_IP=$(dig +short trustlines-validator.dappnode)
 NODE_IP=$(dig +short trustlines.dappnode)
 
