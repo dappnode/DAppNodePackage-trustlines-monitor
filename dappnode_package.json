@@ -3,14 +3,10 @@
   "version": "0.1.0",
   "upstreamVersion": "release",
   "shortDescription": "Trustlines monitor",
-  "description": "The Trustlines monitor watches the blockchain and makes sure that validators are online and do not equivocate. Every node in the network should run it and users should regularly check for reports of misbehaving validators.",
+  "description": "The Trustlines monitor watches the blockchain and makes sure that validators are online and behave correctly. Every node in the network should run it and users should regularly check for reports of misbehaving validators.",
   "type": "service",
   "requirements": {
     "minimumDappnodeVersion": "0.2.19"
-  },
-  "style": {
-    "featuredBackground": "linear-gradient(67deg, #140a0a, #512424)",
-    "featuredColor": "white"
   },
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
@@ -18,7 +14,8 @@
   ],
   "categories": ["Blockchain"],
   "links": {
-    "homepage": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
+    "homepage": "https://trustlines.network",
+    "readme": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
     "trustlines": "https://trustlines.network",
     "netstats": "https://netstats.tlbc.trustlines.foundation",
     "explorer": "https://blockexplorer.trustlines.foundation/"
@@ -30,7 +27,5 @@
   "bugs": {
     "url": "https://github.com/dappnode/DAppNodePackage-trustlines-monitor/issues"
   },
-  "license": "GPL-3.0",
-  "dependencies" : {
-  }
+  "license": "GPL-3.0"
 }
