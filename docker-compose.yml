@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  trustlines-monitor.dnp.dappnode.eth:
+    image: 'trustlines-monitor.dnp.dappnode.eth:0.1.0'
+    build: ./build
+    volumes:
+      - 'trustlines-validatordnpdappnodeeth_shared:/config'
+      - 'state:/state'
+      - 'reports:/reports'
+    restart: on-failure
+volumes:
+  state: {}
+  reports: {}
+  trustlines-validatordnpdappnodeeth_shared:
+    external: true
