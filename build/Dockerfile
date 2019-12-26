@@ -7,6 +7,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD entrypoint.sh /usr/local/bin/entrypoint
+ADD https://github.com/trustlines-protocol/blockchain/blob/master/chain/tlbc/tlbc-spec.json /shared/trustlines-spec.json
 
 ENTRYPOINT ["entrypoint"]
 
