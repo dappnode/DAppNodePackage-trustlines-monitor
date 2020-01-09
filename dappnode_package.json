@@ -1,6 +1,6 @@
 {
   "name": "trustlines-monitor.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "upstreamVersion": "0.2.1",
   "shortDescription": "Trustlines monitor",
   "description": "The Trustlines monitor watches the blockchain and makes sure that validators are online and behave correctly. Every node in the network should run it and users should regularly check for reports of misbehaving validators.",
@@ -12,7 +12,9 @@
   "contributors": [
     "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
   ],
-  "categories": ["Blockchain"],
+  "categories": [
+    "Blockchain"
+  ],
   "links": {
     "homepage": "https://trustlines.network",
     "readme": "https://github.com/dappnode/DAppNodePackage-trustlines#readme",
