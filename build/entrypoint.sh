@@ -16,4 +16,4 @@ else
     exit 1
 fi 
 
-tlbc-monitor -c /config/trustlines-spec.json -r /reports -d /state -u ${RPC_HOST}
+tlbc-monitor -c /shared/trustlines-spec.json -r /reports -d /state -u ${RPC_HOST}
